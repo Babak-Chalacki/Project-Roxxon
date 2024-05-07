@@ -1,6 +1,6 @@
 
-<?php include "header.php";
-// include "info.php"
+<?php  include "view/header.php";
+// include "controller/info.php"
 ?>
 
 
@@ -18,7 +18,7 @@
           </lord-icon>
         </button>
         <a class="btn btn-dark d-xxl-none d-xl-none d-lg-none d-md-none d-sm-block " class="navbar-brand" href="#">
-          <img src="img/roxxon-power.webp" alt="Logo" width="200" height="44" class="d-inline-block align-text-top">
+          <img src="view/img/roxxon-power.webp" alt="Logo" width="200" height="44" class="d-inline-block align-text-top">
         </a>
 
 
@@ -27,13 +27,13 @@
 
             <li class="nav-item">
               <a class="navbar-brand" href="#">
-                <img src="img/roxxon-power.webp" alt="Bootstrap" width="230" height="54">
+                <img src="view/img/roxxon-power.webp" alt="Bootstrap" width="230" height="54">
               </a>
             </li>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link flashy" href="regiser_form.php">sign up / sign in</a>
+                  <a class="nav-link flashy" href="view/regiser_form.php">sign up / sign in</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link flashy" href="home.php">Home</a>
@@ -99,7 +99,7 @@
         <div class="col">
   
           <div class="img-thumbnail col-none">
-            <img width="100%" style="width: 100%; height: 650px;" class="img-fluid" src="img/logo-power.jpg"
+            <img width="100%" style="width: 100%; height: 650px;" class="img-fluid" src="view/img/logo-power.jpg"
               alt="An example image">
           </div>
   
@@ -147,4 +147,4 @@
 
 
  
-<?php include "footer.php"; ?>
+<?php include "view/footer.php"; ?>

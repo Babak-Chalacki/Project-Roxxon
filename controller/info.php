@@ -21,9 +21,9 @@ switch ($request) {
         break;
 
     default:
-        // require __DIR__ . "/view/error.php";
-        echo 'hello';
-        break;
+        require __DIR__ . "/view/error.php";
+        // echo 'hello';
+        break;   
 }
 
 ?>

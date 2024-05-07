@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <style>
         body {
             background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
@@ -91,10 +93,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,145,16,1) 0%, rgba
         a:hover{
             color: white !important;
         }
+        .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
     </style>
 </head>
 <body>
-<div class="container-fluid">
 <nav id="nav" class=" navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
     <div class=" navbar-collapse" id="navbarNavAltMarkup">
@@ -106,6 +113,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,145,16,1) 0%, rgba
     </div>
   </div>
 </nav>
+<div class="container-fluid">
 </div>
 <div class="container mt-5">
     <div class="row">
@@ -154,6 +162,31 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,145,16,1) 0%, rgba
     </div>
 </div>
 
-
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Contact Us</h3>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Follow Us</h3>
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="col-md-4">
+        <h3>Newsletter</h3>
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Enter your email">
+          </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

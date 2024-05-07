@@ -203,14 +203,15 @@ a {
       <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" id="sign1" class="tab">Sign In</label>
       <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" id="sign2" class="tab">Sign Up</label>
       <div class="login-form">
-        <div class="sign-in-htm">
+  <form method="post" action="controller/login.php">
+  <div class="sign-in-htm">
           <div class="group">
             <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input">
+            <input id="user" name="username" type="text" class="input">
           </div>
           <div class="group">
             <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input" data-type="password">
+            <input id="pass" name="password" type="password" class="input" data-type="password">
           </div>
           <div class="group">
             <input id="check" type="checkbox" class="check" checked>
@@ -224,19 +225,30 @@ a {
             <a href="#forgot">Forgot Password?</a>
           </div>
         </div>
-       <form method="post" enctype="multipart/form-data" action="registration_process.php">
+  </form>
+
+
+
+
+
+
+
+
+
+
+       <form method="post" enctype="multipart/form-data" action="controller/registration_process.php">
        <div class="sign-up-htm">
           <div class="group">
             <label for="user" class="label">first name</label>
-            <input id="user" name="first_name" type="text" class="input">
+            <input id="user" name="first_name" required type="text" class="input">
           </div>
           <div class="group">
-            <label for="user" class="label">Last name</label>
-            <input id="user" name="last_name" type="text" class="input">
+            <label for="user" class="label" >Last name</label>
+            <input id="user" name="last_name" required type="text" class="input">
           </div>
           <div class="group">
             <label for="user" class="label">Username</label>
-            <input id="user" name="Username" type="text" class="input">
+            <input id="user" name="Username" required type="text" class="input">
           </div>
           <div class="group">
             <label for="pass" class="label">Password</label>
