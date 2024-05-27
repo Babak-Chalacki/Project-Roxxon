@@ -17,7 +17,6 @@ Welcome to Roxxon, the ultimate destination for Marvel fans! Our website is dedi
 - Php
 - MySQL , SQL
   
-2. Open the index.html file in your favorite browser.
 
 ## Contributing
 We welcome contributions from the Marvel community to make Roxxon even better. If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
